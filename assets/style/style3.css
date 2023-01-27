@@ -5,11 +5,15 @@
     padding: 0;
     text-align: center;
     font-family: 'Syne', sans-serif;
+    border-radius: 5px;
 }
 
 header{
     border: 1px solid black;
     background-image: url(/assets/images/design1_image1.jpg);
+    height: 500px;
+    width: 100%;
+    
 }
 
 h1{
@@ -24,10 +28,12 @@ h2{
 
 section{
     font-size: xx-large;
+    padding: 10px;
 }
 
 .logo{
     width: 30vh;
+    float: center;
 }
 
 img{
