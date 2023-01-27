@@ -10,28 +10,30 @@
 
 a{
     text-decoration: none;
+    color: rgb(240, 240, 237);
 }
 
 header{
     border: 2px solid black;
     background-image: url(/assets/images/design1_image1.jpg);
-    height: 500px;
+    height: 300px;
     width: 100%;
 }
 
 .logo{
-    width: 30vh;
+    width: 20vh;
     float: center;
     position: relative;
 }
 
 nav{
-    position: absolute;
+    display: inline-block;
+    width: 20%;
+
 }
 
-main{
-    padding: 10%;
-    
+nav > a {
+    width: 100%;
 }
 
 h1, h2{
@@ -40,4 +42,8 @@ h1, h2{
 
 h2{
     background-color: black;
+}
+
+.sector{
+    margin: 100px;
 }
