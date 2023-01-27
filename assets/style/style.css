@@ -22,8 +22,10 @@ header{
 
 .logo{
     width: 20vh;
-    float: center;
-    position: relative;
+    right: 100px;
+    top: 210px;
+    position: absolute;
+    border: 1px solid lightskyblue;
 }
 
 nav{
@@ -45,5 +47,5 @@ h2{
 }
 
 .sector{
-    margin: 100px;
+    margin: 40px;
 }
