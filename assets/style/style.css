@@ -31,19 +31,19 @@ header{
 nav{
     display: inline-block;
     width: 20%;
-
 }
 
 nav > a {
     width: 100%;
 }
 
-h1, h2{
-    color: rgb(240, 240, 237);
+h1{
+    color:yellow;
 }
 
 h2{
     background-color: black;
+    color: rgb(240, 240, 237);
 }
 
 .sector{
