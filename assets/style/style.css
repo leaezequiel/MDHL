@@ -8,3 +8,36 @@
     
 }
 
+a{
+    text-decoration: none;
+}
+
+header{
+    border: 2px solid black;
+    background-image: url(/assets/images/design1_image1.jpg);
+    height: 500px;
+    width: 100%;
+}
+
+.logo{
+    width: 30vh;
+    float: center;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+}
+
+main{
+    padding: 10%;
+    
+}
+
+h1, h2{
+    color: rgb(240, 240, 237);
+}
+
+h2{
+    background-color: black;
+}
