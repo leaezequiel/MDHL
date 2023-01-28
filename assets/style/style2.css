@@ -52,13 +52,12 @@ main{
 .sector{
     margin: 40px;
     text-align: center;
-    border-color: 10px solid black;
+    border-color:black;
 }
 
 .logo{
     width: 20vh;
     position: absolute;
-    display: absolute;
     margin: 10.5% 10.5%;
     bottom: 10px;
     border: 3px solid black;
