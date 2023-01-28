@@ -1,10 +1,10 @@
 *{
     box-sizing: border-box;
-    background-color: gray;
     margin: 0%;
     padding: 0;
     text-align: center;
     font-family: 'Syne', sans-serif;
+    background-color: gray;
     
 }
 
@@ -28,13 +28,30 @@ header{
     border: 1px solid lightskyblue;
 }
 
-nav{
-    display: inline-block;
-    width: 20%;
+img{
+    width: 100px;
+    object-fit: cover;
 }
 
+nav{
+    display: block;
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
+    position: absolute;
+    bottom: 0px;
+}
+
+main{
+    float: right;
+    margin: 0 1.5%;
+    width: 63%;
+}
 nav > a {
     width: 100%;
+    display: block;
+    margin: 40px;
+    bottom: 0px;
 }
 
 h1{
