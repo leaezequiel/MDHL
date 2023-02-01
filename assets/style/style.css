@@ -36,12 +36,15 @@ img{
 }
 
 nav{
-    display: block;
     float: left;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
     margin: 0 1.5%;
     width: 30%;
     position: absolute;
-    bottom: 0px;
+    height: 30vh;
+    bottom: 0;
 }
 
 main{
@@ -51,11 +54,12 @@ main{
     text-align: left;
 }
 nav > a {
-    width: 100%;
-    display: block;
-    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     bottom: 0px;
-    text-align: left;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 h1{
