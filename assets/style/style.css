@@ -58,6 +58,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     padding: 1%;
+    height: 70vh;    
 }
 nav > a {
     display: flex;
@@ -72,6 +73,8 @@ h1{
     color:yellow;
     text-align: center;
     background-color: black;
+    position: sticky;
+    top: 0;
 }
 
 .titleDocument{
@@ -106,4 +109,5 @@ footer{
     position: relative;
     bottom: 0;
     justify-content: center;
+    align-items: flex-end;
 }
