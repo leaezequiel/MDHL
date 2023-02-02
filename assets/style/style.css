@@ -71,6 +71,10 @@ h1{
     text-align: center;
 }
 
+.titleDocument{
+    position: sticky;
+}
+
 h2{
     background-color: black;
     color: rgb(240, 240, 237);
