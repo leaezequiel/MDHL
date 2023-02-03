@@ -17,7 +17,7 @@ a{
 header{
     border: 2px solid black;
     background-image: url(../images/design1_image1.jpg);
-    height: 70vh;
+    min-height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     padding: 1%;
-    height: 70vh;    
+    min-height: 55vh;    
 }
 nav > a {
     display: flex;
@@ -110,4 +110,14 @@ footer{
     bottom: 0;
     justify-content: center;
     align-items: flex-end;
+    min-height: 5vh;
+}
+
+.listaNumerada > li{
+    list-style-position: inside;
+    
+}
+
+.rulesMain{
+    text-align: justify;    
 }
