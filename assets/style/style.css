@@ -30,6 +30,7 @@ header{
     top: 210px;
     position: absolute;
     border: 1px solid lightskyblue;
+    border-radius: 25px;
 }
 
 img{
@@ -120,4 +121,24 @@ footer{
 
 .rulesMain{
     text-align: justify;    
+}
+
+iframe{
+    width:100%;
+    height:250px;
+    border-radius: 5px
+}
+
+.placesList{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.placesList h5{
+    color: aliceblue;
 }
