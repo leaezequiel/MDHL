@@ -27,9 +27,43 @@
         <a href="./index.html"><img class="logo" src="./assets/images/logo.png" alt="logo"></a>
         <h2>Registration Form</h2> 
     </header>
-
     <main>
+        <form action="./assets/show_data.txt" method="get">
+            <fieldset>
+                <!--Personal Information-->
+                <label for="fname">Player's first name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="flastName">Last name:</label>
+                <input type="text" id="flastName" name="flastName">
+                <label for="Street Adress">Street Adress:</label>
+                <input type="text" id="Street Adress" name="Street Adress">
+                <label for="City">City:</label>
+                <input type="text" id="City" name="City">
+                <label for="zipCode">Zip Code</label>
+                <input type="number" id="zipCode" name="zipCode" max="9999">
+                <label for="birthDay">Birth Date:</label>
+                <input type="date" id="birthDay" name="birthDay" value="2018-07-22" min="1990-01-01" max="2023-12-31">
+            
+            </fieldset>
 
+            <fieldset>
+                <!--Check Point-->
+            </fieldset>
+
+            <fieldset>
+                <!--Permission-->
+                <p>I, the parent or guardian of the minor registrant, agree that registrant and I will abide by all the rules of Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League” accepting the registrant for its their employees an associated personnel and volunteers, including the facilities used for registrant`s participation in the programand/orbeing transported to or form MDHL sponsored activities, which transportation.</p>
+                <p>By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                <label for="parentSignature">Parent/Guardian Signature:</label>
+                <input type="text" id="parentSignature" name="parentSignature">
+                <label for="dateSignature">Date:</label>
+                <input type="date" id="dateSignature" name="dateSignature" value="2023-01-01" min="2023-01-01" >
+            
+            
+            </fieldset>
+
+            
+        </form>
 
 
     </main>
