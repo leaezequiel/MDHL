@@ -29,99 +29,109 @@
     </header>
     <main>
         <form action="./assets/show_data.html" method="get">
-            <fieldset>
+            <div>
                 <!--Personal Information-->
-                <label for="fname">Player's first name:</label>
-                <input type="text" id="fname" name="fname">
-                <label for="flastName">Last name:</label>
-                <input type="text" id="flastName" name="flastName">
-                <label for="Street Adress">Street Adress:</label>
-                <input type="text" id="Street Adress" name="Street Adress">
-                <label for="City">City:</label>
-                <input type="text" id="City" name="City">
-                <label for="zipCode">Zip Code</label>
-                <input type="number" id="zipCode" name="zipCode" max="9999">
-                <label for="birthDay">Birth Date:</label>
-                <input type="date" id="birthDay" name="birthDay" value="2018-07-22" min="1990-01-01" max="2023-12-31">
-                <input type="radio" id="female" name="gender">
-                <label for="female">Female</label>  
-                <input type="radio" id="male" name="gender">
-                <label for="male">Male</label>
-                <br>
-                <input type="radio" id="preSchool" name="grade">
-                <label for="preSchool">Pre-School</label>
-                <input type="radio" id="1st" name="grade">
-                <label for="1st">1st</label>
-                <input type="radio" id="2dn" name="grade">
-                <label for="2dn">2dn</label>
-                <input type="radio" id="3rd" name="grade">
-                <label for="3rd">3rd</label>
-                <input type="radio" id="4rd" name="grade">
-                <label for="4rd">4th</label>
-                <input type="radio" id="5th" name="grade">
-                <label for="5th">5th</label>
-
-            
-            </fieldset>
-
-            <fieldset>
+                <fieldset>
+                    <label for="fname">Player's first name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                    <label for="flastName">Last name:</label>
+                    <input type="text" id="flastName" name="flastName" required>
+                </fieldset>
+                <fieldset>
+                    <label for="Street Adress">Street Adress:</label>
+                    <input type="text" id="Street Adress" name="Street Adress" required>
+                </fieldset>
+                <fieldset>
+                    <label for="City">City:</label>
+                    <input type="text" id="City" name="City" required>
+                    <label for="zipCode">Zip Code</label>
+                    <input type="number" id="zipCode" name="zipCode" max="9999">
+                </fieldset>
+                <fieldset>
+                    <label for="birthDay">Birth Date:</label>
+                    <input type="date" id="birthDay" name="birthDay" value="2018-07-22" min="1990-01-01" max="2023-12-31">
+                    <label for="radio">Gender:</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>  
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                </fieldset>
+                <fieldset>
+                    <label for="radio">Grade:</label>
+                    <input type="radio" id="preSchool" name="grade">
+                    <label for="preSchool">Pre-School</label>
+                    <input type="radio" id="1st" name="grade">
+                    <label for="1st">1st</label>
+                    <input type="radio" id="2dn" name="grade">
+                    <label for="2dn">2dn</label>
+                    <input type="radio" id="3rd" name="grade">
+                    <label for="3rd">3rd</label>
+                    <input type="radio" id="4rd" name="grade">
+                    <label for="4rd">4th</label>
+                    <input type="radio" id="5th" name="grade">
+                    <label for="5th">5th</label>
+                </fieldset>
+            </div>
+            <div>
                 <!--Check Point-->
-                <h5>Wich elementary school do you live near?</h5>
-                <h6>Closest School:</h6>
-                <input type="radio" id="AJ Kazzenmaier" name="nearSchool">
-                <label for="AJ Kazzenmaier">AJ Kazzenmaier</label>
-                <input type="radio" id="Greenbay" name="nearSchool">
-                <label for="Greenbay">Greenbay</label>
-                <input type="radio" id="Howard A Yaeger" name="nearSchool">
-                <label for="Howard A Yaeger">Howard A Yaeger</label>
-                <input type="radio" id="Marjorie P Hart" name="nearSchool">
-                <label for="Marjorie P Hart">Marjorie P Hart</label>
-                <input type="radio" id="North elementary" name="nearSchool">
-                <label for="North elementary">North Elementary</label>
-                <input type="radio" id="South Eelementary" name="nearSchool">
-                <label for="South Eelementary">South Elementary</label>
-
+                <fieldset>
+                    <h5>Wich elementary school do you live near?</h5>
+                    <h6>Closest School:</h6>
+                    <input type="radio" id="AJ Kazzenmaier" name="nearSchool">
+                    <label for="AJ Kazzenmaier">AJ Kazzenmaier</label>
+                    <input type="radio" id="Greenbay" name="nearSchool">
+                    <label for="Greenbay">Greenbay</label>
+                    <input type="radio" id="Howard A Yaeger" name="nearSchool">
+                    <label for="Howard A Yaeger">Howard A Yaeger</label>
+                    <input type="radio" id="Marjorie P Hart" name="nearSchool">
+                    <label for="Marjorie P Hart">Marjorie P Hart</label>
+                    <input type="radio" id="North elementary" name="nearSchool">
+                    <label for="North elementary">North Elementary</label>
+                    <input type="radio" id="South Eelementary" name="nearSchool">
+                    <label for="South Eelementary">South Elementary</label>
+                </fieldset>
+                <fieldset>
                 <h5>What position(s) do you normally play? (check all that aplly)</h5>
-                <input type="checkbox" id="forward" name="forward" balue="Forward">
-                <label for="forward">Forward</label>
-                <input type="checkbox" id="defense" name="defense" balue="Defense">
-                <label for="defense">Defense</label>
-                <input type="checkbox" id="midfield" name="midfield" balue="Midfield">
-                <label for="midfield">Midfield</label>
-                <input type="checkbox" id="goalkeeper" name="goalkeeper" balue="Goalkeeper">
-                <label for="goalkeeper">Goalkeeper</label>
-
-                <br>
+                    <input type="checkbox" id="forward" name="forward" balue="Forward">
+                    <label for="forward">Forward</label>
+                    <input type="checkbox" id="defense" name="defense" balue="Defense">
+                    <label for="defense">Defense</label>
+                    <input type="checkbox" id="midfield" name="midfield" balue="Midfield">
+                    <label for="midfield">Midfield</label>
+                    <input type="checkbox" id="goalkeeper" name="goalkeeper" balue="Goalkeeper">
+                    <label for="goalkeeper">Goalkeeper</label>
+                </fieldset>
+                <fieldset>
                 <h5>Uniform Size:</h5>
-                <input type="radio" id="ySmall" name="size">
-                <label for="ySmall">Youth Small</label>
-                <input type="radio" id="yMedium" name="size">
-                <label for="yMedium">Youth Medium</label>
-                <input type="radio" id="yLarge" name="size">
-                <label for="yLarge">Youth Large</label>
-                <input type="radio" id="small" name="size">
-                <label for="small">Small</label>
-                <input type="radio" id="medium" name="size">
-                <label for="medium">Medium</label>
-                <input type="radio" id="large" name="size">
-                <label for="large">Large</label>
-                <input type="radio" id="Elarge" name="size">
-                <label for="Elarge">Extra-Large</label>
-            </fieldset>
-
-            <fieldset>
+                    <input type="radio" id="ySmall" name="size">
+                    <label for="ySmall">Youth Small</label>
+                    <input type="radio" id="yMedium" name="size">
+                    <label for="yMedium">Youth Medium</label>
+                    <input type="radio" id="yLarge" name="size">
+                    <label for="yLarge">Youth Large</label>
+                    <input type="radio" id="small" name="size">
+                    <label for="small">Small</label>
+                    <input type="radio" id="medium" name="size">
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="large" name="size">
+                    <label for="large">Large</label>
+                    <input type="radio" id="Elarge" name="size">
+                    <label for="Elarge">Extra-Large</label>
+                </fieldset>
+            </div>
+            <div>
                 <!--Permission-->
-                <h5>Permission to Play</h5>
-                <p>I, the parent or guardian of the minor registrant, agree that registrant and I will abide by all the rules of Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League” accepting the registrant for its their employees an associated personnel and volunteers, including the facilities used for registrant`s participation in the programand/orbeing transported to or form MDHL sponsored activities, which transportation.</p>
-                <p>By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
-                <label for="parentSignature">Parent/Guardian Signature:</label>
-                <input type="text" id="parentSignature" name="parentSignature">
-                <label for="dateSignature">Date:</label>
-                <input type="date" id="dateSignature" name="dateSignature" value="2023-01-01" min="2023-01-01" >
-            
-            
-            </fieldset>
-
+                <fieldset>
+                    <h5>Permission to Play</h5>
+                    <p>I, the parent or guardian of the minor registrant, agree that registrant and I will abide by all the rules of Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League” accepting the registrant for its their employees an associated personnel and volunteers, including the facilities used for registrant`s participation in the programand/orbeing transported to or form MDHL sponsored activities, which transportation.</p>
+                    <p>By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                    <label for="parentSignature">Parent/Guardian Signature:</label>
+                    <input type="text" id="parentSignature" name="parentSignature">
+                    <label for="dateSignature">Date:</label>
+                    <input type="date" id="dateSignature" name="dateSignature" value="2023-01-01" min="2023-01-01" >
+                </fieldset>
+            </div>
+            <br>
             <input class="buttonSend" type="submit" value="Send">
         </form>
 
